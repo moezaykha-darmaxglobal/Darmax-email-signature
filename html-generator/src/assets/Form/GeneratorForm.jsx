@@ -85,7 +85,7 @@ function GeneratorForm() {
           <div dangerouslySetInnerHTML={{ __html: htmlCode }}></div>
           <pre id="generated-html" >
             {`
-            <img width="200" height="60" src="${imageUrl}" />
+            <img width="100%" src="${imageUrl}" />
             `}
           </pre>
           {/* <div dangerouslySetInnerHTML={{ __html: `<p>${greeting}</p><img src="${imageUrl}" alt="${name}" /><p>${name}</p>` }}></div> */}
